@@ -1,0 +1,30 @@
+.coursesList{
+margin-top:70px;
+display: grid;
+grid-template-columns: auto auto;
+}
+
+.course{
+display: grid;
+grid-template-rows: auto auto;
+margin:5px 5px;
+padding:5px 5px;
+margin-left: 20%;
+margin-right:20%;
+border: 1px solid black;
+border-radius:5px;
+}
+
+.course:hover{
+    font-size: 20px;
+    background-color:rgb(252, 243, 243);
+}
+
+.course img{
+width:100px;
+border:1px solid black;
+border-radius:5px;
+height:100px;
+margin:5px 5px;
+padding:5px 5px;
+}

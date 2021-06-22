@@ -1,0 +1,5 @@
+
+<div [ngSwitch]="selectedType">
+    <li   *ngSwitchCase="'A'">     <app-dashboard></app-dashboard> </li>
+    <li (click)= "toggle('B')" *ngSwitchCase="'B'">   <app-admindashboard></app-admindashboard> </li>>
+</div>
