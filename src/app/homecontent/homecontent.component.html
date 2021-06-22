@@ -1,0 +1,13 @@
+
+<div *ngFor="let entry of entries" class = "row ">
+  
+  <div class="card mb-3">
+    <img class="card-img-top" src={{entry.photopath}} alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"> {{entry.heading}} </h5>
+      <p class="card-text">{{entry.news}}</p>
+      <p class="card-text"><small class="text-muted">{{entry.date}}</small></p>
+    </div>
+  </div>
+
+</div>

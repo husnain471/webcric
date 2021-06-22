@@ -1,0 +1,11 @@
+
+<div [ngSwitch]="selectedType" class="n">
+    <li (click)= "toggle($event)"  *ngSwitchCase="'A'">     <app-dashboard #one ></app-dashboard> </li>
+    <li (click)= "toggle($event)" *ngSwitchCase="'B'">   <app-admindashboard></app-admindashboard> </li>
+
+</div>
+  
+
+<div class="slider"><app-imageslider></app-imageslider></div>
+<div class="dynamic"><router-outlet></router-outlet></div>
+<div><app-footer class="footer"></app-footer></div>

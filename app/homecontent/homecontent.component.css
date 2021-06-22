@@ -1,0 +1,19 @@
+
+
+.card{
+    background-color: #e9e9e9;
+}
+
+.row{
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+}
+
+.card-img-top{
+  padding-top: 5px ;
+  padding-bottom: 5px;
+  width: 220px;
+  height:200px;
+  margin-left: 30%;
+}

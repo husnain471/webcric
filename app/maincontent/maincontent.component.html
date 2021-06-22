@@ -1,0 +1,13 @@
+<div><app-display-details #display></app-display-details></div>
+<div class="coursesList">
+  <li *ngFor="let courses of courseListDisplay" (click)="display.DisplayComponent(courses.courseName)">
+   <div class="course">
+     <h4>{{courses.courseName}}</h4>
+     <img src = {{courses.imageSrc}}>
+      <div class="desc">
+        <h3>Description: </h3><p>{{courses.desc}}</p>
+      </div>
+   </div>
+  </li>
+</div>
+
